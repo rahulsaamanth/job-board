@@ -19,7 +19,7 @@ export const OrganizationUserSetttingsTable = pgTable(
     organizationId: varchar()
       .notNull()
       .references(() => OrganizationTable.id),
-    newApplicationEnialNotifications: boolean().notNull().default(false),
+    newApplicationEmialNotifications: boolean().notNull().default(false),
     minimumRating: integer(),
     createdAt,
     updatedAt,

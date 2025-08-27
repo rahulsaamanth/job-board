@@ -1,5 +1,5 @@
 {
-  "id": "25792874-f369-4aa2-844c-cc3aeb02315f",
+  "id": "d276e050-3f99-4701-adfd-4fd0bd453f75",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -427,8 +427,8 @@
           "primaryKey": false,
           "notNull": true
         },
-        "newApplicationEnialNotifications": {
-          "name": "newApplicationEnialNotifications",
+        "newApplicationEmialNotifications": {
+          "name": "newApplicationEmialNotifications",
           "type": "boolean",
           "primaryKey": false,
           "notNull": true,

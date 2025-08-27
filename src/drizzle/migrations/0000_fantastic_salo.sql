@@ -63,7 +63,7 @@ CREATE TABLE "user_notification_settings" (
 CREATE TABLE "organization_user_settings" (
 	"userId" varchar NOT NULL,
 	"organizationId" varchar NOT NULL,
-	"newApplicationEnialNotifications" boolean DEFAULT false NOT NULL,
+	"newApplicationEmialNotifications" boolean DEFAULT false NOT NULL,
 	"minimumRating" integer,
 	"createdAt" timestamp with time zone DEFAULT now() NOT NULL,
 	"updatedAt" timestamp with time zone DEFAULT now() NOT NULL,
